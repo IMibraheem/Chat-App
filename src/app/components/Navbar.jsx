@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-6 py-4 bg-black bg-opacity-50 backdrop-blur-md fixed w-full top-0 z-50">
       <Link href={"/"} className="text-xl font-bold text-purple-400">
-        ChatWave
+        ChatRipple
       </Link>
       <div className="space-x-6 flex justify-center items-center">
         <Link href="/" className="hover:text-purple-300 transition">

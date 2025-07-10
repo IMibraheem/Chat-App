@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "ChatWave",
+  title: "ChatRipple",
   description: "Chat App in Next.js using Stream",
 };
 

@@ -12,7 +12,7 @@ export default function Home() {
           Connect Instantly. Chat Freely.
         </h2>
         <p className="max-w-xl mb-8 text-gray-300">
-          Meet ChatWave — your new favorite place to talk, laugh, and share
+          Meet ChatRipple — your new favorite place to talk, laugh, and share
           moments with friends. Fast, secure, and beautifully designed just for
           you.
         </p>
@@ -27,12 +27,12 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-20 px-6 bg-black text-center">
         <h3 className="text-4xl font-bold text-white mb-4">
-          Why Choose ChatWave?
+          Why Choose ChatRipple?
         </h3>
         <p className="max-w-2xl mx-auto mb-12 text-gray-300">
-          ChatWave is more than just a chat app — it’s a vibrant community built
+          ChatRipple is more than just a chat app — it’s a vibrant community built
           around privacy, fun, and meaningful connections. Discover why so many
-          people are switching to ChatWave.
+          people are switching to ChatRipple.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {CardArray.map((e) => (
@@ -49,7 +49,7 @@ export default function Home() {
         <p className="max-w-2xl mx-auto text-gray-300 mb-8">
           Over{" "}
           <span className="text-purple-400 font-semibold">1,000 people</span>{" "}
-          already chat daily on ChatWave. We’re building a safe space for
+          already chat daily on ChatRipple. We’re building a safe space for
           laughter, late-night talks, and meaningful connections.
         </p>
         <div className="flex flex-wrap justify-center gap-6">

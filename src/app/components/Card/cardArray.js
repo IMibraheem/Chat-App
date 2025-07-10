@@ -9,7 +9,7 @@ export const CardArray = [
   },
   {
     heading: " Easy & Intuitive",
-    description: ` Designed with simplicity in mind, ChatWave is incredibly easy to
+    description: ` Designed with simplicity in mind, ChatRipple is incredibly easy to
               use for everyone — whether you’re a tech enthusiast or just
               starting out. From setting up your profile to creating group
               chats, every feature is just a tap away. No confusing menus or
@@ -20,7 +20,7 @@ export const CardArray = [
     description: `Stay connected anytime, anywhere. With instant push notifications
               and real-time message delivery, you’ll never miss a moment.
               Whether you’re catching up with family, collaborating with
-              teammates, or sharing a joke at midnight, ChatWave keeps you
+              teammates, or sharing a joke at midnight, ChatRipple keeps you
               seamlessly linked to what matters most.`,
   },
 ];
