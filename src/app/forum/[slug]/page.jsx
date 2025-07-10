@@ -5,12 +5,11 @@ import { currentUser } from "@clerk/nextjs/server";
 const Page = async ({ params }) => {
   const user = await currentUser();
 
-
   if (!user) {
     throw new Error("User not found");
   }
 
-  const { slug } = params;
+  const { slug } = await params;
 
   if (!slug) {
     throw new Error("Slug missing in params.");

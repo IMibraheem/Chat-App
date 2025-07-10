@@ -48,6 +48,7 @@ export async function POST(request) {
       image: "https://getstream.io/random_png/?name=react",
       name: "Let's Discuss about " + capitalize(slug),
       created_by_id: user.data.id,
+      // members: [user.data.id],
     });
     await channel.create();
     channel.addMembers([user.data.id]);
